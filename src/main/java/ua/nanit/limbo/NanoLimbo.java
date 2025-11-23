@@ -122,23 +122,23 @@ public final class NanoLimbo {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "efa2a4cd-f4d7-4fc9-885a-c5bc5578f46b");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "wispbyte.kingkey.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiOWViMWNmYWFiZGRjZjMzNzc0M2RkMzFiODQxZGUwMDYiLCJ0IjoiMDRmZmY0NjYtMTA5YS00ZGMwLWFiM2YtNGU0MmY4NmE0NDRmIiwicyI6Ik5UVmtZelk0T0RRdFpXRmhNUzAwT0dFNUxXSm1PRE10TVRJMU56RXdZbVZoWXpZMSJ9");
+        envVars.put("HY2_PORT", "9227");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
-        envVars.put("UPLOAD_URL", "");
-        envVars.put("CHAT_ID", "");
-        envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "cf.877774.xyz");
+        envVars.put("REALITY_PORT", "9227");
+        envVars.put("UPLOAD_URL", "https://merge-gcpjptbgeodf.cfapps.jp31.hana.ondemand.com");
+        envVars.put("CHAT_ID", "7678153852");
+        envVars.put("BOT_TOKEN", "7792117190:AAFMUgh9JhgPYB6gJsLBckIgnFxEdcpklMM");
+        envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "Wispbyte");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
